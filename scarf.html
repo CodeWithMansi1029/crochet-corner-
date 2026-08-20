@@ -1,0 +1,460 @@
+<html>
+<head>
+<title>Crochet Corner</title>
+
+<link rel="Stylesheet" href="keychain.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="delivery">
+Free Delevery!!! Enjoy Shopping with our Free delivery time slots
+</div>
+
+<header>
+<div class="logo">
+
+<div class="logo-container">
+<img src="img/chrochet.png">   
+</div>
+
+<div class="logo-text">
+<h2>Crochet Corner</h2>
+<p>Handmade with Love</p>
+</div>
+
+</div>
+
+<div class="search">
+<input type="text"
+       id="searchBar"
+       placeholder="Search products..."
+       onkeydown="searchProducts(event)"></div>
+
+<div class="Menu">
+<div class="Home">
+    <a href="homepage.html">
+<i class="fa-solid fa-house"></i>
+<p>Home</p></a>
+</div>
+
+<div class="Profile">
+<a href="myprofile.css">
+<i class="fa-solid fa-circle-user"></i>
+<p>Profile</p>
+</a>
+</div>
+
+<div class="Wishlist">
+<a href="wishlist.html">
+<i class="fa-regular fa-heart"></i>
+<p>Wishlist</p></a>
+</div>
+
+<div class="cart">
+<a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i> 
+<p>My cart</p></a>
+</div>
+</div>
+
+
+
+</header>
+<nav class="navbar">
+<a href="keychain.html"> Keychains</a>
+<a href="top.html"> Top</a>
+<a href="bags.html">Bags</a>
+<a href="flower.html">Flowers</a>
+<a href="homedecor.html">Home Decor</a>
+<a href="gift.html">Gift Collection</a>
+<a href="Softtoys.html">Soft Toys</a>
+<a href="hair.html">Hair Accessories</a>
+<a href="hat.html">Hats</a>
+<a href="sweater.html">Sweaters</a>
+<a href="scarf.html">Scarfs</a>
+</nav>
+
+
+<div class="banner2">
+<div class="hero-text2">
+<h2>Handmade</h2>
+<h1>Crochet Scarfs</h1>
+<p>Elegent . Comfortable . Unique</p>
+
+<h6>______________________<i class="fa-regular fa-heart"></i>______________________</h6>
+
+<p>Beutifully handcrafted with love, 
+just for you.</p>
+</div>
+<img src="img/scarflogo.jpeg">
+</div>
+
+
+
+
+
+<div class="products">
+
+<div class="collection">
+<img src="img/scarf1.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Sky Blue Crochet Scarf</h3>
+<p>Soft handmade crochet winter scarf with elegant fringe.</p>
+<p>₹499.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/scarf2.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Rainbow Knit Scarf</h3>
+<p>Colorful handcrafted crochet scarf for a stylish winter look.</p>
+<p>₹699.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/scarf3.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Mint Green Scarf</h3>
+<p>Warm lightweight crochet scarf with ribbed texture.</p>
+<p>₹549.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/scarf4.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Classic Crochet Muffler</h3>
+<p>Elegant handmade scarf for everyday winter wear.</p>
+<p>₹399.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/scarf5.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Dual Tone Scarf</h3>
+<p>Handcrafted striped crochet scarf with soft finish.</p>
+<p>₹649.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/scarf6.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Ocean Blue Scarf</h3>
+<p>Premium crochet scarf with long tassels and cozy feel.</p>
+<p>₹599.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/scarf7.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Pastel Winter Scarf</h3>
+<p>Beautiful handmade crochet scarf for daily use.</p>
+<p>₹499.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/scarf8.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Classic Blue Muffler</h3>
+<p>Soft crochet muffler with elegant knitted pattern.</p>
+<p>₹449.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/scarf9.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Mustard Crochet Scarf</h3>
+<p>Stylish handmade scarf featuring decorative tassels.</p>
+<p>₹699.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/scarf10.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Chocolate Brown Scarf</h3>
+<p>Warm handcrafted crochet scarf with classic design.</p>
+<p>₹549.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/scarf11.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Olive Green Muffler</h3>
+<p>Soft chunky crochet scarf for extra winter comfort.</p>
+<p>₹599.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/scarf12.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Sage Green Scarf</h3>
+<p>Premium handmade crochet scarf with elegant finish.</p>
+<p>₹649.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/scarf13.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Olive Green Crochet Scarf</h3>
+<p>Soft handmade crochet scarf with a warm and cozy texture.</p>
+<p>₹599.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/scarf14.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Blue Stripe Winter Scarf</h3>
+<p>Handcrafted striped crochet scarf with decorative tassels.</p>
+<p>₹699.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/scarf15.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Navy Ribbed Scarf</h3>
+<p>Elegant ribbed crochet scarf for everyday winter comfort.</p>
+<p>₹649.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/scarf16.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Ruby Red Crochet Scarf</h3>
+<p>Classic handmade scarf with stylish fringe detailing.</p>
+<p>₹549.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button></div>
+</div>
+
+<div class="collection">
+<img src="img/scarf17.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Beige Knit Scarf</h3>
+<p>Premium soft crochet scarf with a timeless winter design.</p>
+<p>₹599.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/scarf18.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Royal Blue Stripe Scarf</h3>
+<p>Warm crochet scarf featuring a bold striped pattern.</p>
+<p>₹749.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+</div>
+<script src="cart.js"></script>
+<script src="search.js"></script>
+
+</body>
+</html>

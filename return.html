@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Return Product</title>
+    <link rel="stylesheet" href="return.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+<div class="delivery">
+Free Delevery!!! Enjoy Shopping with our Free delivery time slots
+</div>
+
+<header>
+<div class="logo">
+
+<div class="logo-container">
+<img src="img/chrochet.png">   
+</div>
+
+<div class="logo-text">
+<h2>Crochet Corner</h2>
+<p>Handmade with Love</p>
+</div>
+
+</div>
+
+<div class="search">
+<input type="text"
+       id="searchBar"
+       placeholder="Search products..."
+       onkeydown="searchProducts(event)"></div>
+
+<div class="Menu">
+<div class="Home">
+    <a href="index.html">
+<i class="fa-solid fa-house"></i>
+<p>Home</p></a>
+</div>
+
+<div class="Profile">
+<a href="Profile.html">
+<i class="fa-solid fa-circle-user"></i>
+<p>Profile</p>
+</a>
+</div>
+
+<div class="Wishlist">
+<a href="wishlist.html">
+<i class="fa-regular fa-heart"></i>
+<p>Wishlist</p></a>
+</div>
+
+<div class="cart">
+<a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i> 
+<p>My cart</p></a>
+</div>
+</div>
+
+
+</header>
+<nav class="navbar">
+<a href="keychain.html"> Keychains</a>
+<a href="top.html"> Top</a>
+<a href="bags.html">Bags</a>
+<a href="flower.html">Flowers</a>
+<a href="homedecor.html">Home Decor</a>
+<a href="gift.html">Gift Collection</a>
+<a href="Softtoys.html">Soft Toys</a>
+<a href="hair.html">Hair Accessories</a>
+<a href="hat.html">Hats</a>
+<a href="sweater.html">Sweaters</a>
+<a href="scarf.html">Scarfs</a>
+</nav>
+
+<div class="return-container">
+
+    <h2>Return Product</h2>
+
+<div class="product-box" id="product-box">
+
+</div>
+
+<h3>Select Reason for Return</h3>
+
+<select id="reason">
+    <option>Select Reason</option>
+    <option>Wrong product received</option>
+    <option>Product damaged</option>
+    <option>Quality issue</option>
+    <option>Size issue</option>
+    <option>Changed my mind</option>
+</select>
+
+<textarea id="comment" placeholder="Write your reason..."></textarea>
+
+<button class="return-btn" onclick="submitReturn()">
+    Submit Return Request
+</button>
+
+<script src="return.js"></script>
+</body>
+</html>

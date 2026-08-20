@@ -1,0 +1,463 @@
+<html>
+<head>
+<title>Crochet Corner</title>
+
+<link rel="Stylesheet" href="keychain.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="delivery">
+Free Delevery!!! Enjoy Shopping with our Free delivery time slots
+</div>
+
+<header>
+<div class="logo">
+
+<div class="logo-container">
+<img src="img/chrochet.png">   
+</div>
+
+<div class="logo-text">
+<h2>Crochet Corner</h2>
+<p>Handmade with Love</p>
+</div>
+
+</div>
+
+<div class="search">
+<input type="text"
+       id="searchBar"
+       placeholder="Search products..."
+       onkeydown="searchProducts(event)"></div>
+
+<div class="Menu">
+<div class="Home">
+    <a href="homepage.html">
+<i class="fa-solid fa-house"></i>
+<p>Home</p></a>
+</div>
+
+<div class="Profile">
+<a href="myprofile.css">
+<i class="fa-solid fa-circle-user"></i>
+<p>Profile</p>
+</a>
+</div>
+
+<div class="Wishlist">
+<a href="wishlist.html">
+<i class="fa-regular fa-heart"></i>
+<p>Wishlist</p></a>
+</div>
+
+<div class="cart">
+<a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i> 
+<p>My cart</p></a>
+</div>
+</div>
+
+
+
+</header>
+<nav class="navbar">
+<a href="keychain.html"> Keychains</a>
+<a href="top.html"> Top</a>
+<a href="bags.html">Bags</a>
+<a href="flower.html">Flowers</a>
+<a href="homedecor.html">Home Decor</a>
+<a href="gift.html">Gift Collection</a>
+<a href="Softtoys.html">Soft Toys</a>
+<a href="hair.html">Hair Accessories</a>
+<a href="hat.html">Hats</a>
+<a href="sweater.html">Sweaters</a>
+<a href="scarf.html">Scarfs</a>
+</nav>
+
+
+
+
+<div class="banner2">
+<div class="hero-text2">
+<h2>Handmade</h2>
+<h1>Crochet Bags</h1>
+<p>Elegent . Comfortable . Unique</p>
+
+<h6>______________________<i class="fa-regular fa-heart"></i>______________________</h6>
+
+<p>Beutifully handcrafted with love, 
+just for you.</p>
+</div>
+<img src="img/baglogo.jpeg">
+</div>
+
+
+
+
+
+<div class="products">
+
+<div class="collection">
+<img src="img/bag2.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Classic Crochet Tote Bag</h3>
+<p>Handmade crochet tote bag for everyday style.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/bag3.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+
+<h3>Floral Crochet Handbag</h3>
+<p>Beautiful floral crochet handbag with elegant design.</p>
+<p>₹949.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/bag4.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Boho Sling Bag</h3>
+<p>Stylish crochet sling bag for daily use.</p>
+<p>₹799.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/bag5.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Mini Crossbody Bag</h3>
+<p>Compact crochet crossbody bag with soft finish.</p>
+<p>₹699.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/bag6.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Granny Square Bag</h3>
+<p>Colorful granny square crochet bag with charm.</p>
+<p>₹999.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/bag7.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Crochet Shoulder Bag</h3>
+<p>Elegant shoulder bag handcrafted with cotton yarn.</p>
+<p>₹849.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/bag8.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Bucket Crochet Bag</h3>
+<p>Spacious crochet bucket bag with modern look.</p>
+<p>₹1099.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/bag9.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Sunflower Tote Bag</h3>
+<p>Handmade sunflower tote bag for shopping trips.</p>
+<p>₹949.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/bag10.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Heart Crochet Bag</h3>
+<p>Cute heart crochet bag for every occasion.</p>
+<p>₹879.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/bag11.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Knitted Handbag</h3>
+<p>Soft knitted handbag with premium crochet finish.</p>
+<p>₹759.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/bag12.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Round Crochet Bag</h3>
+<p>Round crochet bag with a trendy handmade design.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/bag13.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Pastel Tote Bag</h3>
+<p>Pastel crochet tote bag with spacious storage.</p>
+<p>₹969.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/bag14.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Vintage Crochet Purse</h3>
+<p>Classic crochet purse with timeless handmade style.</p>
+<p>₹799.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/bag15.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Casual Crochet Bag</h3>
+<p>Simple crochet bag perfect for everyday carrying.</p>
+<p>₹749.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/bag16.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Designer Crochet Tote</h3>
+<p>Premium designer tote handcrafted with soft yarn.</p>
+<p>₹1199.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/bag17.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Flap Crochet Sling</h3>
+<p>Modern flap sling bag with elegant crochet work.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button></div>
+</div>
+
+<div class="collection">
+<img src="img/bag18.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Elegant Crochet Purse</h3>
+<p>Stylish crochet purse crafted with fine cotton.</p>
+<p>₹829.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/bag19.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Luxury Crochet Handbag</h3>
+<p>Luxury handmade crochet handbag with premium finish.</p>
+<p>₹1299.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+</div>
+<script src="cart.js"></script>
+<script src="search.js"></script>
+
+</body>
+</html>

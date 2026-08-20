@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cancel Order</title>
+
+    <link rel="stylesheet" href="cancle.css">
+
+</head>
+
+<body>
+
+    <div class="cancel-box">
+
+        <h1>Cancel Order</h1>
+
+        <p>Are you sure you want to cancel this order?</p>
+
+        <label>Reason for Cancellation</label>
+
+        <select id="reason">
+
+            <option value="">Select Reason</option>
+
+            <option value="Ordered by mistake">
+                Ordered by mistake
+            </option>
+
+            <option value="Product not required">
+                Product not required
+            </option>
+
+            <option value="Found another product">
+                Found another product
+            </option>
+
+            <option value="Other">
+                Other
+            </option>
+
+        </select>
+
+
+        <button onclick="cancelOrder()">
+            Confirm Cancellation
+        </button>
+
+
+        <button
+            class="back"
+            onclick="goBack()">
+
+            Keep Order
+
+        </button>
+
+    </div>
+
+
+    <script src="cancle.js"></script>
+
+</body>
+
+</html>
+

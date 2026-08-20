@@ -1,0 +1,460 @@
+<html>
+<head>
+<title>Crochet Corner</title>
+
+<link rel="Stylesheet" href="keychain.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="delivery">
+Free Delevery!!! Enjoy Shopping with our Free delivery time slots
+</div>
+
+<header>
+<div class="logo">
+
+<div class="logo-container">
+<img src="img/chrochet.png">   
+</div>
+
+<div class="logo-text">
+<h2>Crochet Corner</h2>
+<p>Handmade with Love</p>
+</div>
+
+</div>
+
+<div class="search">
+<input type="text"
+       id="searchBar"
+       placeholder="Search products..."
+       onkeydown="searchProducts(event)"></div>
+
+<div class="Menu">
+<div class="Home">
+    <a href="homepage.html">
+<i class="fa-solid fa-house"></i>
+<p>Home</p></a>
+</div>
+
+<div class="Profile">
+<a href="myprofile.css">
+<i class="fa-solid fa-circle-user"></i>
+<p>Profile</p>
+</a>
+</div>
+
+<div class="Wishlist">
+<a href="wishlist.html">
+<i class="fa-regular fa-heart"></i>
+<p>Wishlist</p></a>
+</div>
+
+<div class="cart">
+<a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i> 
+<p>My cart</p></a>
+</div>
+</div>
+
+
+</header>
+<nav class="navbar">
+<a href="keychain.html"> Keychains</a>
+<a href="top.html"> Top</a>
+<a href="bags.html">Bags</a>
+<a href="flower.html">Flowers</a>
+<a href="homedecor.html">Home Decor</a>
+<a href="gift.html">Gift Collection</a>
+<a href="Softtoys.html">Soft Toys</a>
+<a href="hair.html">Hair Accessories</a>
+<a href="hat.html">Hats</a>
+<a href="sweater.html">Sweaters</a>
+<a href="scarf.html">Scarfs</a>
+</nav>
+
+
+<div class="banner2">
+<div class="hero-text2">
+<h2>Handmade</h2>
+<h1>Crochet Bouquet</h1>
+<p>Elegent . Comfortable . Unique</p>
+
+<h6>______________________<i class="fa-regular fa-heart"></i>______________________</h6>
+
+<p>Beutifully handcrafted with love, 
+just for you.</p>
+</div>
+<img src="img/flower.jpeg">
+</div>
+
+
+
+
+
+<div class="products">
+
+<div class="collection">
+<img src=img/bouquet1.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Orange Tulip Bouquet</h3>
+<p>Beautiful handmade crochet tulip bouquet wrapped with love.</p>
+<p>₹699.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src=img/bouquet2.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Pastel Tulip Bouquet</h3>
+<p>Elegant crochet tulips in soft pastel shades for gifting.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src=img/bouquet3.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Golden Orchid Vase</h3>
+<p>Handcrafted crochet orchid flowers arranged in a vase.</p>
+<p>₹799.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src=img/bouquet4.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Colorful Lily Bouquet</h3>
+<p>Vibrant handmade crochet lilies perfect for home décor.</p>
+<p>₹999.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src=img/bouquet5.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Pink Lily Bouquet</h3>
+<p>Premium crochet pink lilies beautifully wrapped for gifting.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src=img/bouquet6.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>White Lily Bouquet</h3>
+<p>Elegant handmade white crochet lilies with a premium finish.</p>
+<p>₹949.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src=img/bouquet7.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>White Daisy Bouquet</h3>
+<p>Charming crochet daisy flowers handcrafted with fine details.</p>
+<p>₹799.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src=img/bouquet8.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Lavender Flower Vase</h3>
+<p>Delicate handmade lavender crochet flowers in a stylish vase.</p>
+<p>₹649.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src=img/bouquet9.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Red Rose Bouquet</h3>
+<p>Classic crochet red rose bouquet wrapped in elegant black paper.</p>
+<p>₹749.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src=img/b1.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Pink Tulip Bouquet</h3>
+<p>Soft pink crochet tulips arranged in a beautiful gift bouquet.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src=img/bouquet11.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3> Blossom Vase</h3>
+<p>Handmade crochet flowers in a decorative white vase.</p>
+<p>₹699.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/bouquet10 (2).jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Mixed Flower Bouquet</h3>
+<p> crochet bouquet featuring roses, tulips, and lavender.</p>
+<p>₹999.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src=img/bouquet12.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Pink Tulip Stems</h3>
+<p>Elegant handmade crochet tulip stems in beautiful pink shades.</p>
+<p>₹499.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src=img/bouquet13.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Mixed Tulip Bouquet</h3>
+<p>Handcrafted crochet tulips, perfect for gifting.</p>
+<p>₹799.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src=img/bouquet18.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Pastel Tulip Bouquet</h3>
+<p> crochet tulip bouquet wrapped beautifully with satin ribbon.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src=img/bouquet15.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Colorful Tulip </h3>
+<p> handmade crochet tulips arranged for elegant home décor.</p>
+<p>₹999.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button></div>
+</div>
+
+<div class="collection">
+<img src=img/bouquet16.jpeg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Pink Blossom Plant</h3>
+<p>Adorable crochet flower pot with blooming pink flowers.</p>
+<p>₹649.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src=img/bouquet17.jpg>
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Pink Tulip Gift Bouquet</h3>
+<p>Soft crochet tulip bouquet wrapped in premium jute paper.</p>
+<p>₹849.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+</div>
+<script src="cart.js"></script>
+<script src="search.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,295 @@
+/* =========================================
+   RESET
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   BODY
+========================================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    min-height: 100vh;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:
+        linear-gradient(
+            120deg,
+            #19c8e5 0%,
+            #3987e8 25%,
+            #704fe7 52%,
+            #b82bea 75%,
+            #ed00df 100%
+        );
+}
+
+
+/* =========================================
+   LOGIN CONTAINER
+========================================= */
+
+.login-container {
+    width: 400px;
+
+    max-width: 100%;
+
+    background-color: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.25);
+
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.login-header {
+    text-align: center;
+
+    margin-bottom: 28px;
+}
+
+.login-header h1 {
+    color: #5a3e36;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 28px;
+
+    margin-bottom: 8px;
+}
+
+.login-header p {
+    color: #666;
+
+    font-size: 14px;
+}
+
+
+/* =========================================
+   FORM
+========================================= */
+
+.login-form form {
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+/* =========================================
+   LABEL
+========================================= */
+
+.login-form label {
+    color: #444;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-bottom: 7px;
+}
+
+
+/* =========================================
+   INPUT
+========================================= */
+
+.login-form input {
+    width: 100%;
+
+    height: 42px;
+
+    padding: 10px 12px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #aaa;
+
+    border-radius: 6px;
+
+    background-color: white;
+
+    font-size: 14px;
+
+    outline: none;
+}
+
+
+/* INPUT FOCUS */
+
+.login-form input:focus {
+    border-color: #704fe7;
+
+    box-shadow:
+        0 0 0 2px rgba(112, 79, 231, 0.12);
+}
+
+
+/* =========================================
+   LOGIN BUTTON
+========================================= */
+
+.login-form button {
+    width: 100%;
+
+    height: 42px;
+
+    margin-top: 5px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #704fe7;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.login-form button:hover {
+    background-color: #5b3ed0;
+}
+
+
+/* =========================================
+   MOBILE - 768px
+========================================= */
+
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .login-container {
+        width: 100%;
+
+        max-width: 400px;
+
+        padding: 30px;
+    }
+
+    .login-header h1 {
+        font-size: 26px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE - 480px
+========================================= */
+
+@media screen and (max-width: 480px) {
+
+    body {
+        padding: 12px;
+    }
+
+    .login-container {
+        width: 100%;
+
+        max-width: 350px;
+
+        padding: 25px 20px;
+
+        border-radius: 12px;
+    }
+
+    .login-header {
+        margin-bottom: 22px;
+    }
+
+    .login-header h1 {
+        font-size: 23px;
+    }
+
+    .login-header p {
+        font-size: 13px;
+    }
+
+    .login-form label {
+        font-size: 13px;
+    }
+
+    .login-form input {
+        height: 39px;
+
+        padding: 9px 10px;
+
+        margin-bottom: 15px;
+
+        font-size: 13px;
+    }
+
+    .login-form button {
+        height: 39px;
+
+        font-size: 14px;
+    }
+}
+/* =========================================
+   SIGN UP TEXT
+========================================= */
+
+.signup-text {
+    text-align: center;
+
+    margin-top: 20px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #ddd;
+
+    color: #666;
+
+    font-size: 14px;
+}
+
+
+/* =========================================
+   SIGN UP LINK
+========================================= */
+
+.signup-text a {
+    color: #d63384;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    margin-left: 5px;
+}
+
+
+.signup-text a:hover {
+    color: #8B1E3F;
+
+    text-decoration: underline;
+}

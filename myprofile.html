@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crochet Corner - Profile</title>
+
+    <link rel="stylesheet" href="myprofile.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <div class="delivery">
+        Free Delivery!!! Enjoy Shopping with our Free Delivery Time Slots
+    </div>
+
+
+    <header>
+
+        <div class="logo">
+
+            <div class="logo-container">
+
+<img src="img/chrochet.png" alt="Crochet Corner">
+
+            </div>
+
+
+            <div class="logo-text">
+
+                <h2>Crochet Corner</h2>
+
+                <p>Handmade with Love</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+<div class="search">
+<input type="text"
+       id="searchBar"
+       placeholder="Search products..."
+       onkeydown="searchProducts(event)"></div>
+
+
+<div class="Menu">
+<div class="Home">
+    <a href="homepage.html">
+<i class="fa-solid fa-house"></i>
+<p>Home</p></a>
+</div>
+
+<div class="Profile">
+<a href="Profile.html">
+<i class="fa-solid fa-circle-user"></i>
+<p>Profile</p>
+</a>
+</div>
+
+<div class="Wishlist">
+<a href="wishlist.html">
+<i class="fa-regular fa-heart"></i>
+<p>Wishlist</p></a>
+</div>
+
+<div class="cart">
+<a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i> 
+<p>My cart</p></a>
+</div>
+</div>
+
+    </header>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <a href="keychains.html">Keychains</a>
+
+        <a href="top.html">Tops</a>
+
+        <a href="bags.html">Bags</a>
+
+        <a href="flower.html">Flowers</a>
+
+        <a href="homedecor.html">Home Decor</a>
+
+        <a href="gift.html">Gift Collection</a>
+
+        <a href="Softtoys.html">Soft Toys</a>
+
+        <a href="hair.html">Hair Accessories</a>
+
+        <a href="hat.html">Hats</a>
+
+        <a href="sweater.html">Sweaters</a>
+
+        <a href="scarf.html">Scarfs</a>
+
+    </nav>
+
+
+    <!-- ================= PROFILE ================= -->
+
+    <main class="profile-container">
+
+        <h1>My Profile</h1>
+
+        <p class="subtitle">
+            Manage your Crochet Corner account
+        </p>
+
+
+        <!-- PROFILE CARD -->
+
+        <div class="profile-card">
+
+            <div class="profile-icon">
+
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+
+
+            <div class="profile-info">
+
+                <h2 id="profileName">
+                    Guest User
+                </h2>
+
+                <p id="profileEmail">
+                    Please log in to view your account
+                </p>
+
+            </div>
+
+
+            <button
+                class="edit-btn"
+                onclick="editProfile()">
+
+                <i class="fa-solid fa-pen"></i>
+
+                Edit Profile
+
+            </button>
+
+        </div>
+
+
+        <!-- ================= ACCOUNT OPTIONS ================= -->
+
+        <div class="options">
+
+
+            <div
+                class="option-card"
+                onclick="window.location.href='orders.html'">
+
+                <i class="fa-solid fa-box"></i>
+
+                <h3>My Orders</h3>
+
+                <p>
+                    View your placed orders
+                </p>
+
+            </div>
+
+
+            <div
+                class="option-card"
+                onclick="window.location.href='wishlist.html'">
+
+                <i class="fa-solid fa-heart"></i>
+
+                <h3>Wishlist</h3>
+
+                <p>
+                    View your saved products
+                </p>
+
+            </div>
+
+
+            <div
+                class="option-card"
+                onclick="window.location.href='cart.html'">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <h3>My Cart</h3>
+
+                <p>
+                    View products in your cart
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= LOGOUT ================= -->
+
+        <button
+            class="logout-btn"
+            onclick="logout()">
+
+            <i class="fa-solid fa-right-from-bracket"></i>
+
+            Log Out
+
+        </button>
+
+
+    </main>
+
+
+    <script src="myprofile.js"></script>
+    <script src="search.js"></script>
+
+</body>
+
+</html>

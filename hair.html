@@ -1,0 +1,461 @@
+<html>
+<head>
+<title>Crochet Corner</title>
+
+<link rel="Stylesheet" href="keychain.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="delivery">
+Free Delevery!!! Enjoy Shopping with our Free delivery time slots
+</div>
+
+<header>
+<div class="logo">
+
+<div class="logo-container">
+<img src="img/chrochet.png">   
+</div>
+
+<div class="logo-text">
+<h2>Crochet Corner</h2>
+<p>Handmade with Love</p>
+</div>
+
+</div>
+
+<div class="search">
+<input type="text"
+       id="searchBar"
+       placeholder="Search products..."
+       onkeydown="searchProducts(event)"></div>
+
+<div class="Menu">
+<div class="Home">
+    <a href="homepage.html">
+<i class="fa-solid fa-house"></i>
+<p>Home</p></a>
+</div>
+
+<div class="Profile">
+<a href="myprofile.css">
+<i class="fa-solid fa-circle-user"></i>
+<p>Profile</p>
+</a>
+</div>
+
+<div class="Wishlist">
+<a href="wishlist.html">
+<i class="fa-regular fa-heart"></i>
+<p>Wishlist</p></a>
+</div>
+
+<div class="cart">
+<a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i> 
+<p>My cart</p></a>
+</div>
+</div>
+
+
+
+</header>
+<nav class="navbar">
+<a href="keychain.html"> Keychains</a>
+<a href="top.html"> Top</a>
+<a href="bags.html">Bags</a>
+<a href="flower.html">Flowers</a>
+<a href="homedecor.html">Home Decor</a>
+<a href="gift.html">Gift Collection</a>
+<a href="Softtoys.html">Soft Toys</a>
+<a href="hair.html">Hair Accessories</a>
+<a href="hat.html">Hats</a>
+<a href="sweater.html">Sweaters</a>
+<a href="scarf.html">Scarfs</a>
+</nav>
+
+
+<div class="banner2">
+<div class="hero-text2">
+<h2>Handmade</h2>
+<h1>Crochet Hair Accessories</h1>
+<p>Elegent . Comfortable . Unique</p>
+
+<h6>______________________<i class="fa-regular fa-heart"></i>______________________</h6>
+
+<p>Beutifully handcrafted with love, 
+just for you.</p>
+</div>
+<img src="img/hairimg.jpeg">
+</div>
+
+
+
+
+
+<div class="products">
+
+<div class="collection">
+<img src="img/hair1.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Sunflower Hair Clip</h3>
+<p>Handmade sunflower crochet hair clip.</p>
+<p>₹249.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/hairaccesory.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Crochet Hair Clip Set</h3>
+<p>Colorful handmade crochet hair clip set.</p>
+<p>₹349.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/hair2.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Sunflower Hair Pin</h3>
+<p>Bright sunflower crochet hair pin.</p>
+<p>₹279.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/hair3.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Mini Rose Snap Clips</h3>
+<p>Soft crochet rose snap hair clips.</p>
+<p>₹199.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/hair4.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Bow Hair Clip Set</h3>
+<p>Elegant crochet bow hair clip set.</p>
+<p>₹299.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/hair5.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Flower Hair Pins</h3>
+<p>Beautiful crochet flower hair pins.</p>
+<p>₹189.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/hair6.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Flower Hair Clips</h3>
+<p>Cute crochet flower clips for girls.</p>
+<p>₹229.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/hair7.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Floral Hair Bands</h3>
+<p>Handmade crochet floral hair bands.</p>
+<p>₹399.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/hair8.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Flower Hair Barrettes</h3>
+<p>Stylish crochet flower hair barrettes.</p>
+<p>₹349.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/hair9.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Crochet Hair Clip </h3>
+<p>Premium handmade crochet clip collection.</p>
+<p>₹499.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/hair10.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Bow Hair Clips</h3>
+<p>Beautiful hamdmade crochet Bow hair clips.</p>
+<p>₹329.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/hair11.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Butterfly Hair Pins</h3>
+<p>Elegant crochet butterfly hair pins.</p>
+<p>₹279.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/hair12.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Floral Hair Gajra</h3>
+<p>Elegant crochet floral gajra for festive looks.</p>
+<p>₹699.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/hair13.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Flower Headband</h3>
+<p>Soft crochet flower headband for girls.</p>
+<p>₹329.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/hair14.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Knitted Hair Band</h3>
+<p>Comfortable handmade crochet hair band.</p>
+<p>₹399.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/hair15.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Butterfly Hair Clips</h3>
+<p>Colorful crochet butterfly clips for styling.</p>
+<p>₹299.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button></div>
+</div>
+
+<div class="collection">
+<img src="img/hair16.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Strawberry Bucket Hat</h3>
+<p>Cute handmade crochet strawberry bucket hat.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/hair17.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Butterfly Hair Stick</h3>
+<p>Beautiful crochet butterfly hair stick design.</p>
+<p>₹249.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+</div>
+<script src="cart.js"></script>
+<script src="search.js"></script>
+
+</body>
+</html>

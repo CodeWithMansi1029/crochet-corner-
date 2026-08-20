@@ -1,0 +1,459 @@
+<html>
+<head>
+<title>Crochet Corner</title>
+
+<link rel="Stylesheet" href="Softtoys.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="delivery">
+Free Delevery!!! Enjoy Shopping with our Free delivery time slots
+</div>
+
+<header>
+<div class="logo">
+
+<div class="logo-container">
+<img src="img/chrochet.png">   
+</div>
+
+<div class="logo-text">
+<h2>Crochet Corner</h2>
+<p>Handmade with Love</p>
+</div>
+
+</div>
+
+<div class="search">
+<input type="text"
+       id="searchBar"
+       placeholder="Search products..."
+       onkeydown="searchProducts(event)"></div>
+
+<div class="Menu">
+<div class="Home">
+    <a href="homepage.html">
+<i class="fa-solid fa-house"></i>
+<p>Home</p></a>
+</div>
+
+<div class="Profile">
+<a href="myprofile.css">
+<i class="fa-solid fa-circle-user"></i>
+<p>Profile</p>
+</a>
+</div>
+
+<div class="Wishlist">
+<a href="wishlist.html">
+<i class="fa-regular fa-heart"></i>
+<p>Wishlist</p></a>
+</div>
+
+<div class="cart">
+<a href="cart.html">
+<i class="fa-solid fa-cart-shopping"></i> 
+<p>My cart</p></a>
+</div>
+</div>
+
+
+</header>
+<nav class="navbar">
+<a href="keychain.html"> Keychains</a>
+<a href="top.html"> Top</a>
+<a href="bags.html">Bags</a>
+<a href="flower.html">Flowers</a>
+<a href="homedecor.html">Home Decor</a>
+<a href="gift.html">Gift Collection</a>
+<a href="Softtoys.html">Soft Toys</a>
+<a href="hair.html">Hair Accessories</a>
+<a href="hat.html">Hats</a>
+<a href="sweater.html">Sweaters</a>
+<a href="scarf.html">Scarfs</a>
+</nav>
+
+
+<div class="banner2">
+<div class="hero-text2">
+<h2>Handmade</h2>
+<h1>Crochet Soft Toys</h1>
+<p>Elegent . Comfortable . Unique</p>
+
+<h6>______________________<i class="fa-regular fa-heart"></i>______________________</h6>
+
+<p>Beutifully handcrafted with love, 
+just for you.</p>
+</div>
+<img src="img/teddylogo.jpeg">
+</div>
+
+
+
+
+
+<div class="products">
+
+<div class="collection">
+<img src="img/softtoy1.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Crochet Teddy Bear</h3>
+<p>Soft handmade teddy bear for cuddles.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/softtoy2.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Mini Bunny Toy</h3>
+<p>Cute crochet bunny with soft cotton yarn.</p>
+<p>₹749.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/softtoy3.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Panda Plush</h3>
+<p>Adorable handmade panda for all ages.</p>
+<p>₹999.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/softtoy4.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>pink crochet toy</h3>
+<p>Soft crochet with charming design.</p>
+<p>₹849.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/softtoy5.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Elephant Toy</h3>
+<p>Handmade elephant toy with premium finish.</p>
+<p>₹599.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/softtoy6.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>crochet toy</h3>
+<p>Cute crochet perfect for gifting.</p>
+<p>₹699.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/softtoy7.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>crochet toy </h3>
+<p>Soft toy handcrafted with love.</p>
+<p>₹799.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/softtoy8.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>crochet toy</h3>
+<p>Lovely toy with adorable details.</p>
+<p>₹649.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/softtoy9.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Brown Teddy</h3>
+<p>Classic crochet teddy for every child.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/softtoy10.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Crochet Toy</h3>
+<p>Colorful toy made by hand.</p>
+<p>₹1099.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/softtoy11.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3> crochet Baby doll</h3>
+<p>Soft crochet baby doll with cute design.</p>
+<p>₹699.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/softtoy12.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Koala Toy</h3>
+<p>Handmade koala toy with fluffy texture.</p>
+<p>₹999.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/softtoy13.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Toy </h3>
+<p>Charming crochet toy for home decor.</p>
+<p>₹849.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+<div class="collection">
+<img src="img/softtoy14.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>crochet Doll</h3>
+<p>Playful crochet toy crafted with care.</p>
+<p>₹799.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+
+<div class="collection">
+<img src="img/softtoy15.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>cute crochet toy </h3>
+<p> toy with adorable mane.</p>
+<p>₹899.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+<div class="collection">
+<img src="img/softtoy16.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Cute teddy</h3>
+<p>Cozy teddy toy handmade with love.</p>
+<p>₹749.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button></div>
+</div>
+
+<div class="collection">
+<img src="img/softtoy17.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Polar Bear Plush</h3>
+<p>Premium crochet polar bear for gifting.</p>
+<p>₹999.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+<div class="collection">
+<img src="img/softtoy18.jpeg">
+<div class="like">
+    <i class="fa-regular fa-heart" onclick="addToWishlist(this)"></i>
+</div>
+<h3>Dinosaur Toy</h3>
+<p>Fun crochet dinosaur loved by kids.</p>
+<p>₹949.00</p>
+<div class="btns">
+<button class="cart-btn" onclick="addToCart(this)">
+    <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+</button>
+<button class="buy-btn" onclick="buyNow(this)">
+    Buy Now
+</button>
+</div>
+</div>
+
+
+
+</div>
+<script src="cart.js"></script>
+<script src="search.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up - Crochet Corner</title>
+  <link rel="stylesheet" href="signup.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+
+<div class="container">
+  <div class="head">
+    <h2>Create Account</h2>
+    <p>Sign up to get started</p>
+  </div>
+
+  <div class="names">
+    <label>Full Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <label>Email Address</label>
+    <input type="email" id="email" placeholder="Enter your email">
+
+    <label>Password</label>
+    <input type="password" id="password" placeholder="Enter your password">
+
+    <label>Confirm Password</label>
+    <input type="password" id="confirmPassword" placeholder="Confirm your password">
+
+    <button type="button" onclick="signup()">Sign Up</button>
+
+    <p id="msg"></p>
+
+    <p class="login">
+      Already have an account?
+      <a href="login.html">Log in</a>
+    </p>
+  </div>
+</div>
+
+<script src="signup.js"></script>
+</body>
+</html>
